@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Hackerati Sentence</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        
+
+        <link rel="stylesheet" href="styles/main.css">
+
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+            <h1>Hackerati Sentence</h1>
+
+            <h3>Frontend — Javascript/CSS</h3>
+            
+            <h5>Instructions</h5>
+            <p class="introText">Demonstrate your ability to use AJAX and some event-driven Javascript. Build a two-column website in which the left column has an unordered list of sentences. Enable a feature wherein clicking on a sentence displays the same sentence on the right using AJAX calls. This must be accomplished without refreshing the browser.</p>
+
+            <p class="introText">Please deploy your solution to any free tier host (Heroku, Nodejitsu, Digital Ocean, AWS, Google App Engine, Linnode) and provide link. Please provide documentation (read me) on how to run your project. </p>
+            
+
+            <div class="twoColumns">
+                <div class="leftColumn">
+                    <ul>
+                        <li data-attribute="13">Yo</li>
+                        <li data-attribute="2">Hackerati asked me to create a demo app.</li>
+                        <li data-attribute="1">This is that app.</li>
+                        <li data-attribute="0">I wanted to create a new account on Heroku but the account creation feature has been down for 24 hours!</li>
+                    </ul>
+                </div><!--
+                --><div class="rightColumn">
+                    <p>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <script src="scripts/vendor.js"></script>
+
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
